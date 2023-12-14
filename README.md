@@ -4,7 +4,7 @@ codecs for "T. Liu, H. Yao*, X. Li, C. Qin, Robust perceptual image hashing for 
 * Windows
 * Python=3
 * CPU or NVIDIA GPU + CUDA CuDNN
-* 
+
 # Install
 * Clone this repo:
 ```C
