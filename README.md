@@ -8,6 +8,7 @@ codecs for "T. Liu, H. Yao*, X. Li, C. Qin, Robust perceptual image hashing for 
 ## Install
 * Clone this repo:
 ```C
-git
+git clone https://github.com/HengYao/Robust-Perceptual-Image-Hashing-for-Screen-Shooting-Attack.git
+cd 
 ```
 
