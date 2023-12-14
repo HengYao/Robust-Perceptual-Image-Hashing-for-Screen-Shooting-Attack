@@ -19,10 +19,10 @@ def main():
     parent_parser = argparse.ArgumentParser(description='Training of Deephash nets')
     subparsers = parent_parser.add_subparsers(dest='command', help='Sub-parser for commands')
     new_run_parser = subparsers.add_parser('new', help='starts a new run')  # new or continue
-    # 训练图像的位置
+    # image path
     new_run_parser.add_argument('--data-dir', '-d', default=r'', type=str,
                                 help='The directory where the data is stored.')
-    #
+    # training setting
     new_run_parser.add_argument('--batch-size', '-b', default=91, type=int, help='The batch size.')
     new_run_parser.add_argument('--epochs', '-e', default=200, type=int, help='Number of epochs to run the simulation.')
     new_run_parser.add_argument('--name', default='SelfModel_liner50_single', type=str, help='The name of the experiment.')
